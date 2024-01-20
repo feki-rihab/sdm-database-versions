@@ -1,6 +1,19 @@
 # Python package: sdm-database-versions  
 This package create a database of Smart Data Models versions in order to achieve functionalities like tracking the history of change in SDMs &amp; tracing the evolution of SDMs in every version upgrade.
 
+# Create a Python Virtual Environement 
+
+To create a virtual environment in Python using the `venv` module, the following command can be executed in the terminal:
+
+```shell
+python3 -m venv venv
+```
+To activate a virtual environment named "venv" in the root path, you can use the following command:
+
+```shell
+source venv/bin/activate
+```
+
 # Poetry Initialization - Running the Project Locally 
 
 To manage the dependencies in this project and for Python package management, Poetry is used. 
@@ -67,7 +80,36 @@ Once the virtual environment is activated, the Python script can be run using th
     poetry run python main.py
     ````
 
-# 
+# Environment Variables 
+
+To manage Environment Variables in this project, create a file `.env` in which you can define the needed variables that should be private and secrets e.g database credentials, access tokens, etc. For example: 
+
+```yaml
+MONGO_DB_NAME=your-database-name
+MONGO_PORT=mongo-port
+MONGO_HOST="127.0.0.1"
+MONGO_COLLECTION_NAME=your-collection-name
+TOKEN=github-token
+```
+Use the library `python-dotenv` to instantiate the env vars in the python modules, for example: 
+
+```python
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# MongoDB connection parameters - env variables 
+mongo_host = os.getenv("MONGO_HOST")
+mongo_port = int(os.getenv("MONGO_PORT"))
+```
+
+
+
+
+
+
+
 
 
 
