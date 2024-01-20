@@ -67,7 +67,57 @@ Once the virtual environment is activated, the Python script can be run using th
     poetry run python main.py
     ````
 
-# 
+# Connect to MongoDB via the Terminal
+
+This project aims to create a database of versions for the Smart Data Models. To achieve this, interaction with the `smartdatamodels` database in MongoDB is essential. It's important to note that the MongoDB database is hosted in a virtual machine, and the code interacts with it.
+
+To be able to run this code, it is needed to host a MongoDB database and insert the approprite data (e.g data under `db_versions/data/versions.json`) in it, to do that, the module `db_versions/utils/mongodb.py` is used to acheive that. 
+
+To connect to MongoDB via the terminal, follow these steps:
+
+1. Install MongoDB: Visit the [official MongoDB download website](https://www.mongodb.com/download-center/community/releases) and download the version for your specific operating system
+
+1. Open the terminal 
+
+2. Launch the MongoDB shell by running the command:
+    ```
+    mongosh
+    ```
+
+3. Switch to the `smartdatamodels` database by executing:
+
+    ```shell
+    use smartdatamodels
+    ```
+
+4. Display the collections in the current database:
+    ````
+    show collections
+    ````
+5. Query a specific collection. 
+For example, to retrieve a document from the versions collection, run:
+
+    ```shell
+    db.versions.findOne()
+    ```
+
+    Here's an example of the output you might see after running the db.versions.findOne() command:
+
+    ```json
+    {
+    _id: ObjectId("object_ID"),
+    subject: 'dataModel.User',
+    dataModel: 'Activity',
+    version: '0.1.1',
+    link: 'https://api.github.com/repos/smart-data-models/dataModel.User/git/commits/sha',
+    date: '2022-09-06T07:29:54Z',
+    publicLink: 'https://github.com/smart-data-models/dataModel.User/commit/sha'
+    }
+    ```
+    This output represents a document from the `versions` collection in the smartdatamodels database.
+
+
+
 
 
 
