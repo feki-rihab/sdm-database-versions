@@ -1,0 +1,98 @@
+{
+    "sha": "2032625b7147368c3929c07fa979ef3128cc15f5",
+    "node_id": "C_kwDODmuKEtoAKDIwMzI2MjViNzE0NzM2OGMzOTI5YzA3ZmE5NzllZjMxMjhjYzE1ZjU",
+    "commit": {
+        "author": {
+            "name": "JilinHe",
+            "email": "48126491+JilinHe@users.noreply.github.com",
+            "date": "2023-11-16T14:03:41Z"
+        }, 
+        "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2023-11-16T14:03:41Z"
+        },
+        "message": "Update schema.json\n\nRemove the duplicated property areaServed and adjust the $ref related",
+        "tree": {
+            "sha": "1b12be1baf682716c789f829defe9a570ad5f6d9",
+            "url": "https://api.github.com/repos/smart-data-models/dataModel.ParksAndGardens/git/trees/1b12be1baf682716c789f829defe9a570ad5f6d9"
+        },
+        "url": "https://api.github.com/repos/smart-data-models/dataModel.ParksAndGardens/git/commits/2032625b7147368c3929c07fa979ef3128cc15f5",
+        "comment_count": 0,
+        "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlViE9CRBK7hj4Ov3rIwAALp0IAHVWeYgVVODW01DF29CXDUTK\n+bbxkELeT/uqyArHpV6N1CD4YEKT2XLYtXRvUVthSAJlquizrrDIh0KJJVSffrAH\n4WApc1VcAV6DurlOorLPL1iq4YpU4V+kaNpv00qW97YugXb4w0Tn5pQEwip5ebHT\n7KLTcdBmDINtakC7cgfp1HEBcXcznmap2X3z589qLK5SdR30z7GHwR7lCWpUlDJW\nqDGjk9LYU9ZZ1PqyBrJ/kpXUX7jT439FA3KgDlN0xAd3YZwxwqIyl3PVHFpjf8xX\n1ewvExOK7Py/5RYN9fHXi9/mvVQf7bSmvdEJQKz5uk9HmlDwty2cZm/CPnLP+lE=\n=AEba\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 1b12be1baf682716c789f829defe9a570ad5f6d9\nparent 633bc46df350ef87ada80fc5574fed412babaa41\nauthor JilinHe <48126491+JilinHe@users.noreply.github.com> 1700143421 +0100\ncommitter GitHub <noreply@github.com> 1700143421 +0100\n\nUpdate schema.json\n\nRemove the duplicated property areaServed and adjust the $ref related"
+        }
+    },
+    "url": "https://api.github.com/repos/smart-data-models/dataModel.ParksAndGardens/commits/2032625b7147368c3929c07fa979ef3128cc15f5",
+    "html_url": "https://github.com/smart-data-models/dataModel.ParksAndGardens/commit/2032625b7147368c3929c07fa979ef3128cc15f5",
+    "comments_url": "https://api.github.com/repos/smart-data-models/dataModel.ParksAndGardens/commits/2032625b7147368c3929c07fa979ef3128cc15f5/comments",
+    "author": {
+        "login": "JilinHe",
+        "id": 48126491,
+        "node_id": "MDQ6VXNlcjQ4MTI2NDkx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/48126491?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/JilinHe",
+        "html_url": "https://github.com/JilinHe",
+        "followers_url": "https://api.github.com/users/JilinHe/followers",
+        "following_url": "https://api.github.com/users/JilinHe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/JilinHe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/JilinHe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/JilinHe/subscriptions",
+        "organizations_url": "https://api.github.com/users/JilinHe/orgs",
+        "repos_url": "https://api.github.com/users/JilinHe/repos",
+        "events_url": "https://api.github.com/users/JilinHe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/JilinHe/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "parents": [
+        {
+            "sha": "633bc46df350ef87ada80fc5574fed412babaa41",
+            "url": "https://api.github.com/repos/smart-data-models/dataModel.ParksAndGardens/commits/633bc46df350ef87ada80fc5574fed412babaa41",
+            "html_url": "https://github.com/smart-data-models/dataModel.ParksAndGardens/commit/633bc46df350ef87ada80fc5574fed412babaa41"
+        }
+    ],
+    "stats": {
+        "total": 185,
+        "additions": 94,
+        "deletions": 91
+    },
+    "files": [
+        {
+            "sha": "e75bef3f888ac57cdc73fdf732a8c7634b2ef4bd",
+            "filename": "Garden/schema.json",
+            "status": "modified",
+            "additions": 94,
+            "deletions": 91,
+            "changes": 185,
+            "blob_url": "https://github.com/smart-data-models/dataModel.ParksAndGardens/blob/2032625b7147368c3929c07fa979ef3128cc15f5/Garden%2Fschema.json",
+            "raw_url": "https://github.com/smart-data-models/dataModel.ParksAndGardens/raw/2032625b7147368c3929c07fa979ef3128cc15f5/Garden%2Fschema.json",
+            "contents_url": "https://api.github.com/repos/smart-data-models/dataModel.ParksAndGardens/contents/Garden%2Fschema.json?ref=2032625b7147368c3929c07fa979ef3128cc15f5",
+            "patch": "@@ -1,92 +1,95 @@\n {\n-    \"$schema\": \"http://json-schema.org/schema#\",\n-    \"$schemaVersion\": \"0.0.3\",\n-    \"$id\": \"https://smart-data-models.github.io/dataModel/ParksAndGardens/Garden/schema.json\",\n-    \"title\": \"Smart Data Models - Parks and Gardens / Garden\",\n-    \"description\": \"A garden is a distinguishable planned space, usually outdoors, set aside for the display, cultivation, and enjoyment of plants and other forms of nature.\",\n-    \"type\": \"object\",\n-    \"allOf\": [\n-        {\n-            \"$ref\": \"https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons\"\n-        },\n-        {\n-            \"$ref\": \"https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons\"\n-        },\n-        {\n-            \"$ref\": \"https://smart-data-models.github.io/data-models/common-schema.json#/definitions/PhysicalObject-Commons\"\n-        },\n-        {\n-            \"properties\": {\n-                \"type\": {\n-                    \"type\": \"string\",\n-                    \"enum\": [\n-                        \"Garden\"\n-                    ],\n-                    \"description\": \"Property. NGSI Entity Type: It has to be Garden\"\n-                },\n-                \"category\": {\n-                    \"type\": \"array\",\n-                    \"description\": \"Property. Model:'https://schema.org/Text'. Garden's category. Enum:'public, private, botanical, castle, community, monastery, residential, fencedOff'. Or any other value needed by an application\",\n-                    \"minItems\": 1,\n-                    \"items\": {\n-                        \"type\": \"string\",\n-                        \"enum\": [\n-                            \"botanical\",\n-                            \"castle\",\n-                            \"community\",\n-                            \"fencedOff\",\n-                            \"monastery\",\n-                            \"private\",\n-                            \"public\",\n-                            \"residential\"\n-                        ]\n-                    }\n-                },\n-                \"style\": {\n-                    \"type\": \"string\",\n-                    \"description\": \"Property. Model:'https://schema.org/Text'. Enum:'public, english, french, chinese, japanese, zen, rosarium, herb_garden, kitchen'. Garden's style\",\n-                    \"enum\": [\n-                        \"chinese\",\n-                        \"english\",\n-                        \"french\",\n-                        \"herb_garden\",\n-                        \"japanese\",\n-                        \"kitchen\",\n-                        \"public\",\n-                        \"rosarium\",\n-                        \"zen\"\n-                    ]\n-                },\n-                \"openingHours\": {\n-                    \"type\": \"string\",\n-                    \"description\": \"Property. Opening hours of this garden. Model:'https://schema.org/openingHours'\"\n-                },\n-                \"areaServed\": {\n-                    \"type\": \"string\",\n-                    \"description\": \"Property. Higher level area to which the garden belongs to. It can be used to group gardens per responsible, district, neighbourhood, etc. Model:'https://schema.org/Text'\"\n-                },\n-                \"dateLastWatering\": {\n-                    \"type\": \"string\",\n-                    \"format\": \"date-time\",\n-                    \"description\": \"Property. Timestamp which corresponds to the last watering of this garden. Model:'https://schema.org/DateTime'\"\n-                },\n-                \"nextWateringDeadline\": {\n-                    \"type\": \"string\",\n-                    \"format\": \"date-time\",\n-                    \"description\": \"Property. Deadline for next watering operation to be done on this garden. Model:'https://schema.org/DateTime'\"\n-                },\n-                \"refRecord\": {\n-                    \"type\": \"array\",\n-                    \"description\": \"Relationship. List of records which contain measurements related to this garden. Model:'https://schema.org/URL'\",\n-                    \"items\": {\n-                        \"$ref\": \"https://smart-data-models.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType\"\n-                    }\n-                }\n-            }\n-        }\n-    ],\n-    \"required\": [\n-        \"id\",\n-        \"type\"\n-    ]\n-}\n\\ No newline at end of file\n+  \"$schema\": \"http://json-schema.org/schema#\",\n+  \"$schemaVersion\": \"0.0.4\",\n+  \"$id\": \"https://smart-data-models.github.io/dataModel/ParksAndGardens/Garden/schema.json\",\n+  \"title\": \"Smart Data Models - Parks and Gardens / Garden\",\n+  \"description\": \"A garden is a distinguishable planned space, usually outdoors, set aside for the display, cultivation, and enjoyment of plants and other forms of nature.\",\n+  \"type\": \"object\",\n+  \"allOf\": [\n+      {\n+          \"$ref\": \"https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons\"\n+      },\n+      {\n+          \"$ref\": \"https://smart-data-models.github.io/data-models/common-schema.json#/definitions/PhysicalObject-Commons\"\n+      },\n+      {\n+          \"properties\": {\n+              \"location\": {\n+                  \"$ref\": \"https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons/properties/location\"\n+              },\n+              \"address\": {\n+                  \"$ref\": \"https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons/properties/address\"\n+              },\n+              \"type\": {\n+                  \"type\": \"string\",\n+                  \"enum\": [\n+                      \"Garden\"\n+                  ],\n+                  \"description\": \"Property. NGSI Entity Type: It has to be Garden\"\n+              },\n+              \"category\": {\n+                  \"type\": \"array\",\n+                  \"description\": \"Property. Model:'https://schema.org/Text'. Garden's category. Enum:'public, private, botanical, castle, community, monastery, residential, fencedOff'. Or any other value needed by an application\",\n+                  \"minItems\": 1,\n+                  \"items\": {\n+                      \"type\": \"string\",\n+                      \"enum\": [\n+                          \"botanical\",\n+                          \"castle\",\n+                          \"community\",\n+                          \"fencedOff\",\n+                          \"monastery\",\n+                          \"private\",\n+                          \"public\",\n+                          \"residential\"\n+                      ]\n+                  }\n+              },\n+              \"style\": {\n+                  \"type\": \"string\",\n+                  \"description\": \"Property. Model:'https://schema.org/Text'. Enum:'public, english, french, chinese, japanese, zen, rosarium, herb_garden, kitchen'. Garden's style\",\n+                  \"enum\": [\n+                      \"chinese\",\n+                      \"english\",\n+                      \"french\",\n+                      \"herb_garden\",\n+                      \"japanese\",\n+                      \"kitchen\",\n+                      \"public\",\n+                      \"rosarium\",\n+                      \"zen\"\n+                  ]\n+              },\n+              \"openingHours\": {\n+                  \"type\": \"string\",\n+                  \"description\": \"Property. Opening hours of this garden. Model:'https://schema.org/openingHours'\"\n+              },\n+              \"areaServed\": {\n+                  \"type\": \"string\",\n+                  \"description\": \"Property. Higher level area to which the garden belongs to. It can be used to group gardens per responsible, district, neighbourhood, etc. Model:'https://schema.org/Text'\"\n+              },\n+              \"dateLastWatering\": {\n+                  \"type\": \"string\",\n+                  \"format\": \"date-time\",\n+                  \"description\": \"Property. Timestamp which corresponds to the last watering of this garden. Model:'https://schema.org/DateTime'\"\n+              },\n+              \"nextWateringDeadline\": {\n+                  \"type\": \"string\",\n+                  \"format\": \"date-time\",\n+                  \"description\": \"Property. Deadline for next watering operation to be done on this garden. Model:'https://schema.org/DateTime'\"\n+              },\n+              \"refRecord\": {\n+                  \"type\": \"array\",\n+                  \"description\": \"Relationship. List of records which contain measurements related to this garden. Model:'https://schema.org/URL'\",\n+                  \"items\": {\n+                      \"$ref\": \"https://smart-data-models.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType\"\n+                  }\n+              }\n+          }\n+      }\n+  ],\n+  \"required\": [\n+      \"id\",\n+      \"type\"\n+  ]\n+}"
+        }
+    ]
+}
