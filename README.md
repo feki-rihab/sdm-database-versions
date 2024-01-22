@@ -71,7 +71,9 @@ Once the virtual environment is activated, the Python script can be run using th
 
 This project aims to create a database of versions for the Smart Data Models. To achieve this, interaction with the `smartdatamodels` database in MongoDB is essential. It's important to note that the MongoDB database is hosted in a virtual machine, and the code interacts with it.
 
-To be able to run this code, it is needed to host a MongoDB database and insert the approprite data (e.g data under `db_versions/data/versions.json`) in it, to do that, the module `db_versions/utils/mongodb.py` is used to acheive that. 
+## Create a MongoDB database locally 
+
+Since, it is not possible to access the MongoDB database hosted in the virtual machine. A solution is to create a local MongoDB database that simulated the database hosted in the VM. 
 
 To connect to MongoDB via the terminal, follow these steps:
 
@@ -116,8 +118,12 @@ For example, to retrieve a document from the versions collection, run:
     ```
     This output represents a document from the `versions` collection in the smartdatamodels database.
 
+## MongoDB Data 
+To be able to run this code, it is needed to host a MongoDB database and insert the approprite data (e.g data under `db_versions/data/versions.json`) in it, to do that, the module `db_versions/utils/mongodb.py` is used to acheive that. 
 
-
+```shell
+Poetry run mongodb.py
+```
 
 
 

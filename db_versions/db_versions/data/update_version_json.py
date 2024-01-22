@@ -20,4 +20,4 @@ def remove_id_from_json_file(file_path, new_file_path):
 
 
 # Example usage
-remove_id_from_json_file('versions.json', 'version_db.json')
+remove_id_from_json_file('versions.json', 'versions_db.json')

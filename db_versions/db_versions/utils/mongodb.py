@@ -45,7 +45,8 @@ def insert_data_mogodb(path_to_data: str, collection):
     """
     Insert data in MongoDB collection.
 
-    This function takes a JSON file path and a MongoDB collection as input and inserts the data into the collection. If the data is a single document, it uses the `insert_one` method; otherwise, it uses the `insert_many` method.
+    This function takes a JSON file path and a MongoDB collection as input and inserts the data into the collection. 
+    If the data is a single document, it uses the `insert_one` method; otherwise, it uses the `insert_many` method.
 
     Parameters:
     - path_to_data (str): The path to the JSON file containing the data to be inserted.
@@ -71,21 +72,6 @@ def insert_data_mogodb(path_to_data: str, collection):
         print("Data is not a non-empty list")
 
 
-# Example usage
-
-# Connection parameters
-# MongoDB connection parameters - env variables 
-mongo_host = os.getenv("MONGO_HOST")
-mongo_port = int(os.getenv("MONGO_PORT"))
-
-# Database and collection names
-mongo_db_name = os.getenv("MONGO_DB_NAME")
-collection = os.getenv("MONGO_COLLECTION_NAME")
-path_to_data = "database_versions/database_versions/data/version_db.json"
-
-insert_data_mogodb(path_to_data, collection)
-
-
 ########################################################################
 #                    repopulate the databse of versions                #
 ########################################################################
@@ -93,7 +79,7 @@ insert_data_mogodb(path_to_data, collection)
 # Insert the new version in the dataset 
 # this function is called from the main.py 
 # Gather all the exsiting versions from the dataset from Github and repopiulate the databse with accurate data 
-# save this data in a json file here: data_path = "database_versions/database_versions/data/version_db.json"
+# save this data in a json file here: data_path = "db_versions/db_versions/data/versions_db.json"
 
 
 def repopulate_database(repo_name, data_path, access_token):
@@ -144,7 +130,7 @@ def repopulate_database(repo_name, data_path, access_token):
 # Example usage
 #repo_name = "username/repository"
 repo_name = 'smart-data-models/dataModel.Environment'
-data_path = "database_versions/database_versions/data/version_db.json"
+data_path = "../data/versions_db.json"
 
 credentials = {
     "globalUser": os.getenv("GLOBAL_USER"),
@@ -154,7 +140,7 @@ credentials = {
 access_token = credentials["token"]
 
 
-repopulate_database(repo_name, data_path, access_token)
+#repopulate_database(repo_name, data_path, access_token)
 
 
 ########################################################################
@@ -174,6 +160,6 @@ mongo_collection_name = os.getenv("MONGO_COLLECTION_NAME")
 collection = connect_to_mongodb(mongo_host, mongo_port, mongo_db_name, mongo_collection_name)
 
 # Path to the json file that will be inserted in the mongodb collection  
-data_path = "database_versions/database_versions/data/version_db.json"
+data_path = "../data/versions_db.json"
 
 insert_data_mogodb(path_to_data=data_path, collection=collection)
