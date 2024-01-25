@@ -41,7 +41,7 @@ def connect_to_mongodb(mongo_host, mongo_port, mongo_db_name, mongo_collection_n
 #                          insert data in MongoDB                      #
 ########################################################################
 
-def insert_data_mogodb(path_to_data: str, collection):
+def insert_data_mongodb(path_to_data: str, collection):
     """
     Insert data in MongoDB collection.
 
@@ -130,17 +130,19 @@ def repopulate_database(repo_name, data_path, access_token):
 # Example usage
 #repo_name = "username/repository"
 repo_name = 'smart-data-models/dataModel.Environment'
-data_path = "../data/versions_db.json"
+data_path = "db_versions/db_versions/data/versions_db.json"
 
-credentials = {
-    "globalUser": os.getenv("GLOBAL_USER"),
-    "token": os.getenv("TOKEN")
-}
+# Personal Access Token 
+personal_access_token = os.getenv("PAT")
 
-access_token = credentials["token"]
+# credentials = {
+#     "globalUser": os.getenv("GLOBAL_USER"),
+#     "token": os.getenv("TOKEN")
+# }
 
+# access_token = credentials["token"]
 
-#repopulate_database(repo_name, data_path, access_token)
+repopulate_database(repo_name, data_path, personal_access_token)
 
 
 ########################################################################
@@ -160,6 +162,6 @@ mongo_collection_name = os.getenv("MONGO_COLLECTION_NAME")
 collection = connect_to_mongodb(mongo_host, mongo_port, mongo_db_name, mongo_collection_name)
 
 # Path to the json file that will be inserted in the mongodb collection  
-data_path = "../data/versions_db.json"
+data_path = "db_versions/db_versions/data/versions_db.json"
 
-insert_data_mogodb(path_to_data=data_path, collection=collection)
+insert_data_mongodb(path_to_data=data_path, collection=collection)
