@@ -126,23 +126,21 @@ def repopulate_database(repo_name, data_path, access_token):
     # collection = db[collection_name]
     # collection.insert_one(commit_info)
 
+########################################################################
+#                             trying code                              #
+########################################################################
 
 # Example usage
-#repo_name = "username/repository"
-repo_name = 'smart-data-models/dataModel.Environment'
-data_path = "db_versions/db_versions/data/versions_db.json"
+        
+#repo_name = "username/repository"        
+#repo_name = 'smart-data-models/dataModel.Environment'
+#data_path = "db_versions/db_versions/data/versions_db.json"
 
 # Personal Access Token 
-personal_access_token = os.getenv("PAT")
+        
+#personal_access_token = os.getenv("PAT")
 
-# credentials = {
-#     "globalUser": os.getenv("GLOBAL_USER"),
-#     "token": os.getenv("TOKEN")
-# }
-
-# access_token = credentials["token"]
-
-repopulate_database(repo_name, data_path, personal_access_token)
+#repopulate_database(repo_name, data_path, personal_access_token)
 
 
 ########################################################################
