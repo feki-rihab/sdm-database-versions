@@ -123,12 +123,13 @@ repo_name = 'smart-data-models/dataModel.Environment'
 search_string="$schemaVersion"
 sha = "8f4639f06a2d5db8ba73a8983c276403a137d17c"
 
-credentials = {
-        "globalUser": os.getenv("GLOBAL_USER"),
-        "token": os.getenv("TOKEN")
-    }
+# credentials = {
+#         "globalUser": os.getenv("GLOBAL_USER"),
+#         "token": os.getenv("TOKEN")
+#     }
 
-access_token = credentials["token"]
+# access_token = credentials["token"]
+access_token = os.getenv("PAT")
 
 result = last_commit_date_url(file_path, repo_name, access_token, search_string)
 
@@ -229,13 +230,16 @@ def extract_commit_data(repository_name:str, commit_sha: str, access_token: str,
 
 
 # Example usage
-credentials = {
-        "globalUser": os.getenv("GLOBAL_USER"),
-        "token": os.getenv("TOKEN")
-    }
+# credentials = {
+#         "globalUser": os.getenv("GLOBAL_USER"),
+#         "token": os.getenv("TOKEN")
+#     }
 
+# access_token = credentials["token"]
+        
 repository_name = 'smart-data-models/dataModel.Environment'
-access_token = credentials["token"]
+access_token = os.getenv("PAT")
+        
 output_file = 'database_versions/database_versions/github_commit_data.json'
 #commit_sha = last_commit_date_url(file_path, repo_name)[2]
 commit_sha = "8f4639f06a2d5db8ba73a8983c276403a137d17c"
@@ -243,12 +247,9 @@ commit_sha = "8f4639f06a2d5db8ba73a8983c276403a137d17c"
 extract_commit_data(repository_name, commit_sha, access_token, search_string)
 
 
-
 ########################################################################
-#                                 ...                                  #
+#                                 TODOs                                #
 ########################################################################
-
-
 # TODO
 # populte the database of versions 
 # history of the changes 

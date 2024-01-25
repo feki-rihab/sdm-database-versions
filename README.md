@@ -162,3 +162,19 @@ To be able to run this code, it is needed to host a MongoDB database and insert 
 ```shell
 Python3 mongodb.py
 ```
+
+# Running the code 
+
+To execute the main logic, it only takes to run the following command:
+
+```shell
+python3 main.py
+```
+
+The ruslt should look like this (as an example):
+
+```
+The old version is {'schemaVersion': '0.1.2'}
+The new version is {'schemaVersion': '0.1.3'}
+The $schemaVersion has changed in AirQualityObserved/schema.json from {'schemaVersion': '0.1.2'} to {'schemaVersion': '0.1.3'}
+```
